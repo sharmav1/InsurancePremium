@@ -3,7 +3,7 @@
     public class Validator
     {
         /// <summary>
-        /// Validate all incoming request data. Assuming age not be less than 18
+        /// Validate all incoming request data. Assuming age to be between 0 to 100
         /// </summary>
         /// <param name="occupationId"></param>
         /// <param name="age"></param>
@@ -13,7 +13,7 @@
         {
             bool result = true;
 
-            if (occupationId <= 0 || age <= 18 || sumInsured <= 0) result = false;
+            if (occupationId <= 0 || age <= 0 || sumInsured <= 0) result = false;
 
             return result;
         }

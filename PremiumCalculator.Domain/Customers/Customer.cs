@@ -16,10 +16,10 @@
         public string Name { get; set; } = "";
 
         /// <summary>
-        /// customer's age, default set to 18
-        /// Business Assumption: insurance can't be done for customer less than 18
+        /// customer's age, default set to 1
+        /// Business ASSUMPTION: insurance can't be done for customer less than 1 and greater than 100
         /// </summary>
-        public short Age { get; set; } = 18;
+        public short Age { get; set; } = 1;
 
         /// <summary>
         /// Customer's Data of Birth

@@ -28,7 +28,7 @@ namespace PremiumCalculator.Api.Controllers
         /// <param name="sumInsured"></param>
         /// <returns></returns>
         // GET api/<MonthlyPremiumController>/5
-        [HttpGet("{occupationId}/getmonthly")]
+        [HttpGet("{occupationId}/monthly")]
         public ResponsePayload Get(int occupationId, int age, double sumInsured)
         {
             ResponsePayload result = new ResponsePayload();
