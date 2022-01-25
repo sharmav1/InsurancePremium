@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremiumCalculator.Domain", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremiumCalculator.Core", "PremiumCalculator.Core\PremiumCalculator.Core.csproj", "{EFAB770D-45C1-40E0-BC1E-5E66B8E5F390}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PremiumCalculator.Api.Tests", "PremiumCalculator.Api.Tests\PremiumCalculator.Api.Tests.csproj", "{3F40FF6F-912A-4766-89F0-91F516C5BAD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{EFAB770D-45C1-40E0-BC1E-5E66B8E5F390}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFAB770D-45C1-40E0-BC1E-5E66B8E5F390}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFAB770D-45C1-40E0-BC1E-5E66B8E5F390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F40FF6F-912A-4766-89F0-91F516C5BAD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F40FF6F-912A-4766-89F0-91F516C5BAD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F40FF6F-912A-4766-89F0-91F516C5BAD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F40FF6F-912A-4766-89F0-91F516C5BAD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
